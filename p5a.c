@@ -60,7 +60,7 @@ int j;
  return pop();
 }
 int main() {
- char expression[100]; // Allow space for a reasonable-sized expression
+ char expression[100];
  printf("Enter the suffix expression: ");
  scanf("%s", expression);
  int result = evaluate(expression);
